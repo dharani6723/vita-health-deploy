@@ -1,0 +1,10 @@
+flask
+flask-cors
+werkzeug
+PyJWT
+tensorflow
+opencv-python
+numpy
+pandas
+pillow
+gunicorn
