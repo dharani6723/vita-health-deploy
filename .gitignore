@@ -1,6 +1,47 @@
+# Python cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model artifacts (if stored locally — use Git LFS instead)
+*.h5
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.sav
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.npy
+*.npz
+
+# SQLite database
 db.sqlite3
+
+# Uploaded files
 uploads/
+blob/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Git LFS config files (keep only the main .gitattributes if necessary)
+.gitattributes
